@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_hour_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hour"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/dialog_min_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/dialog_sec_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sec"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dialog_hour_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="00"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/dialog_min_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="00"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/dialog_sec_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="00"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:text="cancel"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/dialog_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:text="ok"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
